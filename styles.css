@@ -1,0 +1,503 @@
+body {
+    background: rgb(30, 30, 30);
+    background-image: url(slike/pozadina.jpg);
+    background-size: 100%;
+    background-position: top;
+    color: white;
+    font-family: Roboto light, Helvetica, Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+
+/* HEADER */ 
+
+header{
+    background: black;
+    text-align: center;
+    border-bottom: rgb(0, 132, 255) solid 2px;
+}
+html {
+    scroll-behavior: smooth;
+}
+
+.hea a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: aliceblue;
+    font-size: 22px;
+
+}
+
+.hea {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+.hea li {
+    display: inline-block;
+    padding: 20px;
+}
+
+.hea li:hover{
+    background-color: #0084ff;
+}
+
+
+/* SECTION */ 
+  
+.features {
+    /*background-image: url(slike/backgr2_sivi_op.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;*/
+    background-color: rgba(0, 9, 17, 0.5);
+    color: white;
+    padding: 50px;
+    height: 300px;
+    text-align: center;
+    border-bottom: rgb(0, 132, 255) solid 2px;
+    position: relative;
+    overflow: hidden;
+    
+}
+
+.features video{
+    position: absolute;
+    bottom:0;
+    left: 0;
+    width: 100%;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -1;
+}
+
+
+.features .logo a {
+    background-image: url(slike/dev_onl_logo.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 650px;
+    position: relative;
+    display: inline-block;
+    top: 40px;
+    height: 220px;
+    width: 550px;
+    text-indent: -9999999999px;
+    
+}
+.features .logo a:hover {
+    background-image: url(slike/dev_onl_logo_hov.png);
+}
+
+
+.Main {
+
+    height: 800px;
+    width: 100%;
+    display: inline-block;
+    text-align: center;
+    font-size: 40px;
+    font-family: roboto light;
+    padding-top: 30px;
+
+    
+    
+}
+
+.Main button {
+    border-radius: 25px;
+    background-color: rgb(255, 255, 255);
+    border: none;
+    color: rgb(51, 51, 51);
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 4px 2px;
+}
+
+.Main button:hover {
+    background-color: rgb(184,184,184);
+}
+
+.Main nav{
+    position:relative;
+    top: 65px;
+}
+
+.but {
+    color:black;
+    text-decoration: none;
+}
+
+.info {
+    /*background-color: rgb(30,30,30);*/
+    height: 400px;
+    color: white;
+    text-align: center;
+    font-size: 30px;
+
+    
+}
+.info div{
+    padding: 100px 50px 0px 50px;
+}
+
+.info button{
+    border-radius: 25px;
+    background-color: rgb(255, 255, 255);
+    border: none;
+    color: rgb(51, 51, 51);
+    padding: 15px 70px;
+    font-size: 16px;
+    margin-top: 35px;
+}
+
+.info button:hover {
+    background-color: rgb(184, 184, 184);
+}
+
+.butrev {
+    color: black;
+    text-decoration: none;
+}
+
+.navigation {
+    background-color: rgb(30,30,30);
+    height: 500px;
+    color: white;
+    font-size: 25px;
+    text-align: center;
+    
+
+}
+.navigation img {
+    padding: 30px 30px 30px 30px;
+    height: 80px;
+    margin: 20px;
+    background-color: rgb(30, 30, 30);
+    border-radius: 50%;
+    border: white solid 3px;
+    
+}
+
+.navigation img:hover {
+    background-color: white;
+}
+
+
+
+
+/* FOOTER */
+
+footer {
+    background: black;
+    color: grey;
+    padding: 10px 0 10px 30px;
+    font-size: 10px;
+    text-align: left;
+    margin: 0 auto;
+    position: relative;
+    bottom: 0;
+}
+
+
+/* TUTORIALS */
+
+.naslov {
+    margin: 20px 50px 20px 50px;
+    padding: 10px;
+    border-radius: 40px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 30px;
+    position: relative; 
+    background: #0084ff79;
+    color: rgb(255, 255, 255);
+    border:#ffffff 1.5px solid;
+ 
+
+}
+
+
+/* Sekcija br.1 */
+.python {
+    /*background-color:rgba(177, 130, 1, 0.356);*/
+    background-color: rgba(0, 0, 0, 0.274);
+    display: flex;
+    height: auto;
+    padding: 30px;
+    border: white 2px solid;
+    border-radius: 25px;
+    margin: 10px 90px 10px 90px;
+    
+}
+
+
+.python .prvasek{
+    font-size: 45px;
+    color: #376f9e;
+    padding-left: 10px;
+    font-family: Roboto light;
+    text-transform: uppercase;
+}
+
+.tut{
+    font-size: 45px;
+    color: #ffd849;
+    padding-left: 10px;
+    font-weight: bolder;
+    text-transform: uppercase;
+}
+
+.python img {
+
+    height: 45px;
+    position: relative;
+    top: 5px;
+    
+}
+
+.gumb {
+    background-color: rgba(255, 255, 255, 0.082);
+    border: white 1.5px solid;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: 16px;
+    position: absolute;
+    right: 100px;
+    padding: 18px;
+    margin-right: 70px;
+    border-radius: 50px;
+    
+}
+
+.gumb:hover{
+    /*background-color:#ffd849;
+    font-weight: bold;
+    color: #376f9e;*/
+    background-color: rgb(255, 255, 255);
+    color: black;
+
+}
+
+/*Sekcija br.2*/
+
+.java {
+    background-color: rgba(0, 0, 0, 0.274);
+    /*background-color: rgba(177, 27, 1, 0.356);*/
+    display: flex;
+    height: auto;
+    padding: 30px;
+    border: white 2px solid;
+    border-radius: 25px;
+    margin: 10px 90px 10px 90px;
+}
+
+.java .drugasek{
+    font-size: 45px;
+    color: #ffffff;
+    padding-left: 10px;
+    font-family: Roboto light;
+    text-transform: uppercase;
+}
+
+.java .tut{
+    font-size: 45px;
+    color: #ff9900;
+    padding-left: 10px;
+    text-transform: uppercase;
+}
+
+.java img {
+
+    height: 65px;
+    position: relative;  
+    top: -8px;
+}
+
+
+/*Sekcija br.3*/
+
+.ce {
+    /*background-color: rgba(162, 1, 177, 0.178);*/
+    background-color: rgba(0, 0, 0, 0.274);
+    display: flex;
+    height: auto;
+    padding: 30px;
+    border: white 2px solid;
+    border-radius: 25px;
+    margin: 10px 90px 10px 90px;
+    align-items: center;
+
+}
+
+.ce .trecasek{
+    font-size: 45px;
+    color: #ffffff;
+    padding-left: 10px;
+    font-family: Roboto light;
+    text-transform: uppercase;
+}
+
+.ce .tut{
+    font-size: 45px;
+    color: #3a0091;
+    padding-left: 10px;
+    text-transform: uppercase;
+}
+
+.ce img {
+
+    height: 65px;
+    position: relative;
+}
+
+
+.htm {
+    color: #008fd5;
+    font-size: 45px;
+    padding-left: 10px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.JS {
+    color: #f0db4f;
+    font-size: 45px;
+    padding-left: 10px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+
+.boot{
+    color: #563d7c;
+    font-size: 45px;
+    padding-left: 10px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+
+
+/* TOOLS */
+
+.skidanje {
+    background-color: rgba(0, 0, 0, 0.274);
+    display: flex;
+    height: auto;
+    padding: 30px;
+    border: white 2px solid;
+    border-radius: 10px;
+    margin: 10px 90px 10px 90px;
+    position: relative;
+}
+
+.skidanje li {
+    padding: 10px;
+}
+
+.skidanje a {
+    text-decoration: none;
+    color: #0084ff;
+    font-size: 22px;
+}
+
+
+.too {
+    height: auto;
+    background-color: rgba(0, 0, 0, 0.274);
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+}
+
+
+.too figure{
+    margin-bottom: 50px;
+    font-size:  35px;
+}
+
+.too figure img {
+    border-radius: 25px;
+    box-shadow: rgb(189, 189, 189) 0 0 10px;
+}
+
+.too figure figcaption {
+    margin-top: 20px;
+}
+
+.too figure button {
+    border-radius: 35px;
+    border: none;
+    background: white;
+    padding: 12px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 14px;
+    margin-top: 10px;
+
+}
+
+
+/*
+@media screen and (min-width: 768px){
+    .features {
+        height: 500px;
+        background-size: 190%;
+    }
+    .features .logo a{
+        top: 150px;
+    }
+
+    .navigation img{
+        height: 80px;
+    }
+}
+@media screen and (min-width: 647px){
+    .navigation img{
+        height: 70px;
+    }
+    .features .logo a{
+        top: 150px;
+    }
+
+@media screen and (min-width: 601px){
+    .hea a{
+        font-size: 18px;
+    }
+    .features .logo a{
+        top: 150px;
+        background-size: 400px;
+    }
+    .info div{
+        padding-top: 150px;
+    }
+
+    .navigation img{
+        height: 50px;
+        
+    }
+}
+
+@media screen and (min-width: 497px){
+    .hea a{
+        font-size: 14px;
+    }
+    .features .logo a{
+        top: 150px;
+        background-size: 300px;
+    }
+    .info div{
+        padding-top: 110px;
+        font-size: 30px;
+    }
+
+    .navigation .img{
+        height: 20px;
+    }
+}*/
